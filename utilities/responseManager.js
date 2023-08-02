@@ -6,8 +6,7 @@ const allowedMethods = {
 	POST: 'created',
 	PUT: 'updated',
 	PATCH: 'updated',
-	DELETE: 'deleted',
-	GET: 'get'
+	DELETE: 'deleted'
 };
 
 exports.sendResponse = function (req, res, controllerResponse) {
